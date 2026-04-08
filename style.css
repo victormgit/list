@@ -1,0 +1,30 @@
+* {box-sizing: border-box;}
+body {font: 12px monospace;}
+div.cd {
+  width:  100px;
+  height: 100px;
+  margin: 0 10px 10px 0;
+  border-radius: 10px;
+  position: relative;
+  float: left;
+}
+div.tx {
+  font: 10px arial;
+  width: 100%;
+  padding: 5px;
+  border-radius: 0 0 10px 10px;
+  background: rgba(500,500,500,0.5);
+  position: absolute;
+  bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}  
+img {
+  width:  100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+a    {color: black;}
+span {color: red;}
